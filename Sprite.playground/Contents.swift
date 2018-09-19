@@ -26,6 +26,10 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
         let spaceship2 = SKSpriteNode(imageNamed: "IMG_0820.PNG")
         spaceship2.position = CGPoint(x: 300, y: 100)
         self.addChild(spaceship2)
+        
+        let spaceship3 = SKSpriteNode(imageNamed: "IMG_0821.PNG")
+        spaceship3.position = CGPoint(x: 100, y: 300)
+        self.addChild(spaceship3)
     }
     
     override func  update(_ currentTime: TimeInterval) {
